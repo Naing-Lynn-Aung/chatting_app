@@ -50,6 +50,7 @@ VITE_BACKEND_URL=your_backend_url
 ```bash
 git clone https://github.com/Naing-Lynn-Aung/chatting_app.git
 cd chatting-app
+```
 
 ### 2. Install dependencies
 ```
