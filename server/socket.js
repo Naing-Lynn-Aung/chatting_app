@@ -150,7 +150,7 @@ const handleUndoDeleteMessage = (io) => async ({ messageId, userId }) => {
 const setupSocket = (server) => {
     const io = new Server(server, {
         cors: {
-            origin: 'https://chatting-app-six-woad.vercel.app/login',
+            origin: 'https://chatting-app-six-woad.vercel.app',
             methods: ['GET', 'POST'],
             credentials: true
         }
