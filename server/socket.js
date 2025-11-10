@@ -151,7 +151,8 @@ const setupSocket = (server) => {
     const io = new Server(server, {
         cors: {
             origin: 'https://chatting-app-six-woad.vercel.app/login',
-            methods: ['GET', 'POST']
+            methods: ['GET', 'POST'],
+            credentials: true
         }
     });
 
